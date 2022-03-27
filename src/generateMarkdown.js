@@ -7,14 +7,12 @@ const createTemplate = (data) => {
 # ${data.name}
 ## Description
   
-- What was your motivation? ${data.motivation}
-- Why did you build this project? ${data.whyTho}
+- What was the motivation? ${data.motivation}
+- Why did I build this project? ${data.whyTho}
 - What problem does it solve? ${data.problem}
-- What did you learn? ${data.learn}
+- What did I learn? ${data.learn}
   
 ## Table of Contents (Optional)
-  
-If your README is long, add a table of contents to make it easy for users to find what they need.
   
 - [Installation](#installation)
 - [Usage](#usage)
@@ -31,9 +29,9 @@ ${data.install}
   
 ${data.usage}
 
-To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Add a screenshot here:
   
-"md ![alt text](assets/images/screenshot.png)"
+"md ! [ alt text ] ( assets/images/screenshot. png )"
   
 ## Credits
   
