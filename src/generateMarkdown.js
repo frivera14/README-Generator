@@ -43,7 +43,7 @@ ${data.license}
 
 ## Tests
   
-${data.tests}
+${data.test}
   
 ## Questions
   
