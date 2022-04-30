@@ -1,11 +1,10 @@
 
-# README Generator
+# E-Store Database
 ## Description
   
-- What was the motivation? To be able to create README files straight from the terminal
-- Why did I build this project? To save time and have a ready to go template
-- What problem does it solve? Saves time, creates nice looking README's
-- What did I learn? How to use node and new functions
+- Why did I build this project? To create useable routes for a ecommerce website server
+- What problem does it solve? Allows for employees to keep track of inventory, categories, and tags
+- What did I learn? To utilize models and sequelize to create more efficient databases
   
 ## Table of Contents (Optional)
   
@@ -18,31 +17,26 @@
   
 ## Installation
 
-Follow github link, download zip file or clone repo
+Download zip or git clone from my repo on github
 
 ## Usage
   
-Run 'node index' on your terminal
+Log in to mysql and use as source db/schema.sql and run the server
 
-Demo here: https://youtu.be/eooTdfX5wJI
-
+Add a screenshot here:
   
-![App Demo](README-Screenshot.png)
+"md ! [ alt text ] ( assets/images/screenshot. png )"
   
 ## Credits
   
-Collaborators: No collaborators 
+Collaborators: None 
   
 ## License
   
 Unlicensed
 
-## Tests
-  
-undefined
   
 ## Questions
   
 All questions and communications can be directed to:
 Github: github.com/frivera14 
-Email: kikridu@gmail.com

@@ -20,19 +20,6 @@ const projectPrompts = () => {
         },
         {
             type: 'input',
-            name: 'motivation',
-            message: 'What was your motivation?',
-            validate: motivationInput => {
-                if (motivationInput) {
-                    return true;
-                } else {
-                    console.log('Please tell us what motivated you!');
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'input',
             name: 'whyTho',
             message: 'Why did you build this project? (Other than for homework)',
             validate: whyThoInput => {
@@ -137,19 +124,6 @@ const projectPrompts = () => {
                     return true;
                 } else {
                     console.log('Please provide a github profile link');
-                    return false;
-                }
-            }
-        },
-        {
-            type: 'input',
-            name: 'email',
-            message: 'Share your email address with the community:',
-            validate: emailInput => {
-                if (emailInput) {
-                    return true;
-                } else {
-                    console.log('This is important.');
                     return false;
                 }
             }

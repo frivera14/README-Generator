@@ -7,10 +7,9 @@ const createTemplate = (data) => {
 # ${data.name}
 ## Description
   
-- What was the motivation? ${data.motivation}
-- Why did I build this project? ${data.whyTho}
-- What problem does it solve? ${data.problem}
-- What did I learn? ${data.learn}
+- Reason behind the project: ${data.whyTho}
+- Purpose or Problem Solved: ${data.problem}
+- Important information learned: ${data.learn}
   
 ## Table of Contents (Optional)
   
@@ -29,9 +28,9 @@ ${data.install}
   
 ${data.usage}
 
-Add a screenshot here:
+Screenshot attatched
   
-"md ! [ alt text ] ( assets/images/screenshot. png )"
+![alt text](Capture.PNG)
   
 ## Credits
   
@@ -43,13 +42,12 @@ ${data.license}
 
 ## Tests
   
-${data.tests}
+${data.test}
   
 ## Questions
   
 All questions and communications can be directed to:
 Github: ${data.github} 
-Email: ${data.email}
 `;
 }
 
