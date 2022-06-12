@@ -1,10 +1,10 @@
 
-# E-Store Database
+# README Generator
 ## Description
   
-- Why did I build this project? To create useable routes for a ecommerce website server
-- What problem does it solve? Allows for employees to keep track of inventory, categories, and tags
-- What did I learn? To utilize models and sequelize to create more efficient databases
+- Reason behind the project: This was built to create a tool for me as a developer, to be able to create professional README files
+- Purpose or Problem Solved: It creates an accessible applciation that is ready to share with other developers
+- Important information learned: How to utilize node and create documents.
   
 ## Table of Contents (Optional)
   
@@ -17,15 +17,15 @@
   
 ## Installation
 
-Download zip or git clone from my repo on github
+Download or Clone the repository from github
 
 ## Usage
   
-Log in to mysql and use as source db/schema.sql and run the server
+Open your terminal and enter 'node .' then respond to the prompts as they appear
 
-Add a screenshot here:
+Screenshot attatched
   
-"md ! [ alt text ] ( assets/images/screenshot. png )"
+![alt text](Capture.PNG)
   
 ## Credits
   
@@ -37,7 +37,7 @@ Unlicensed
 
 ## Tests
   
-N/A
+No tests
   
 ## Questions
   
